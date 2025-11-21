@@ -9,7 +9,7 @@ import Sessoes from './components/Sessoes';
 import QRCodeComponent from './components/QRCode';
 import IA from './components/IA';
 import Relatorios from './components/Relatorios';
-import Odontograma from './components/Odontograma'; // Importa o componente Odontograma
+import Odontograma from '@/components/Odontograma'; // Importa o componente Odontograma
 import Integracoes from './components/Integracoes';
 import './App.css';
 
