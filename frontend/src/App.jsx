@@ -9,7 +9,7 @@ import Sessoes from './components/Sessoes';
 import QRCodeComponent from './components/QRCode';
 import IA from './components/IA';
 import Relatorios from './components/Relatorios';
-import Odontologia from '../modules/odontologia/src/App.jsx'; // Importa o componente principal do módulo de odontologia
+import Odontograma from './components/Odontograma'; // Importa o componente Odontograma
 import Integracoes from './components/Integracoes';
 import './App.css';
 
@@ -55,8 +55,8 @@ const AppContent = () => {
         return <IA />;
       case 'integracoes':
         return <Integracoes />;
-      case 'odontologia':
-        return <Odontologia />;
+      case 'odontograma':
+        return <Odontograma />;
       case 'configuracoes':
         return <ComingSoon title="Configurações" />;
       default:
