@@ -16,6 +16,11 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 5173,
+    allowedHosts: [
+      '5173-iko8uidtgjb6g1ow1cr56-352ba4bd.manusvm.computer',
+      'localhost'
+    ],
+
     strictPort: true,
     watch: {
       usePolling: true,
