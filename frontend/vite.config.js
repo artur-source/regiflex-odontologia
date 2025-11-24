@@ -18,7 +18,8 @@ export default defineConfig({
     port: 5173,
     allowedHosts: [
       '5173-iko8uidtgjb6g1ow1cr56-352ba4bd.manusvm.computer',
-      'localhost'
+      'localhost',
+      '5173-iael24zgttfng7xs98ggp-8476cc21.manus-asia.computer'
     ],
 
     strictPort: true,
