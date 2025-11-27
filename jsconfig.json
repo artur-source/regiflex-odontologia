@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@core/*": ["../core/*"],
+      "@/*": ["./frontend/src/modules/odontologia/src/*"]
+    }
+  },
+  "include": ["frontend/src/modules/odontologia/src/**/*"]
+}
