@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
-import { AuthProvider, useAuth } from './contexts/AuthContext';
-import Login from './components/Login';
-import Layout from './components/Layout';
-import { Toaster } from "@/components/ui/toaster";
+import { AuthProvider, useAuth } from '@regiflex/core';
+import { Layout } from '@regiflex/core';
+import { Toaster } from "@regiflex/core/ui/toaster";
 import Dashboard from './components/Dashboard';
 import Pacientes from './components/Pacientes';
 import Sessoes from './components/Sessoes';
 import QRCodeComponent from './components/QRCode';
 import IA from './components/IA';
 import Relatorios from './components/Relatorios';
-import Odontograma from './components/Odontograma'; // Importa o componente Odontograma
+import Odontograma from './components/Odontograma';
 import Integracoes from './components/Integracoes';
 import './App.css';
 
@@ -36,7 +35,7 @@ const AppContent = () => {
   }
 
   if (!user) {
-    return <Login />;
+    return <div>Redirecionando para login...</div>;
   }
 
   const renderPage = () => {
@@ -81,4 +80,3 @@ function App() {
 }
 
 export default App;
-

@@ -1,33 +1,42 @@
 {
+  "name": "regiflex-odontologia",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Módulo de Odontologia para RegiFlex - Extensão especializada do Core com lógica de negócio de Odontologia",
+  "main": "frontend/src/main.jsx",
   "dependencies": {
+    "@regiflex/core": "^1.0.1",
     "@stripe/stripe-js": "^8.0.0",
     "@supabase/supabase-js": "^2.76.1",
     "dotenv": "^17.2.3",
     "dotenv-cli": "^10.0.0",
     "node-fetch": "^3.3.2",
-    "regiflex-core": "file:../regiflex-core",
     "stripe": "^19.1.0"
   },
   "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
     "seed": "node seed.js"
-  },
-  "name": "regiflex-teste",
-  "version": "1.0.0",
-  "description": "[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)](https://github.com/artur-source/RegiFlex-teste) [![Tecnologia](https://img.shields.io/badge/Frontend-React%2018.3.1-blue)](https://reactjs.org/) [![Backend](https://img.shields.io/badge/Backend-Supabase-green)](https://supabase.com/) [![Última Correção](https://img.shields.io/badge/Última%20Correção-2025--10--10-brightgreen)](./BUGFIXES.md)",
-  "main": "seed.js",
-  "directories": {
-    "doc": "docs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/artur-source/RegiFlex-teste.git"
+    "url": "git+https://github.com/artur-source/regiflex-odontologia.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "regiflex",
+    "odontologia",
+    "saas",
+    "healthtech",
+    "modular"
+  ],
+  "author": "Manus AI",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/artur-source/RegiFlex-teste/issues"
+    "url": "https://github.com/artur-source/regiflex-odontologia/issues"
   },
-  "homepage": "https://github.com/artur-source/RegiFlex-teste#readme"
+  "homepage": "https://github.com/artur-source/regiflex-odontologia#readme",
+  "directories": {
+    "doc": "docs"
+  }
 }
